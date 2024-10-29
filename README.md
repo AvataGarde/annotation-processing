@@ -20,7 +20,7 @@ python annotation_agreement.py \
 ```
 
 
-###Parameters
+### Parameters
 
 `--input:` Path to the input CSV file with raw emotion annotations.
 `--output:` Directory where the processed files will be saved.
