@@ -23,9 +23,13 @@ python annotation_agreement.py \
 ### Parameters
 
 `--input:` Path to the input CSV file with raw emotion annotations.
+
 `--output:` Directory where the processed files will be saved.
+
 `--lang:` Language of the dataset. (Example: "Hausa")
+
 `--batch:` Batch number of the dataset. This helps identify data for specific batches.
+
 `--merge_annotators (optional):` A JSON string to merge annotations from multiple annotators. Use this option if you want to combine annotations from specific annotators. Example: ```json '{"merge1": ["meryembechar4@gmail.com", "khaoulafarouz@gmail.com"]}'```
 
 
