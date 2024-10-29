@@ -39,8 +39,11 @@ python annotation_agreement.py \
 The script generates several output files in the specified output directory:
 
 `individual_annotations.csv:` Contains individual annotations processed per annotator.
+
 `processed_emotion_annotations.csv:` Includes annotations after applying the majority vote.
+
 `processed_intensity_annotations.csv:` Contains emotion intensity values (Low, Medium, High) for each text.
+
 `stats.txt:` Summarizes the statistics:
 
 - Count of annotations per emotion
